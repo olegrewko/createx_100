@@ -32,7 +32,7 @@
   &__pag {
     counter-reset: pag;
     left: calc((100% - 1260px) / 2) !important;
-    bottom: 120px !important;
+    bottom: 20px !important;
     display: flex;
 
     .swiper-pagination-bullet {
@@ -137,20 +137,21 @@
 }
 
 .hero-slide {
-  padding-top: 220px;
-  padding-bottom: 354px;
-  background-image: url("../img/hero-bg.jpg");
+  padding-top: 0px;
+  padding-bottom: 0px;
+  // background-image: url("https://heating-equipment-store.oml.ru/thumb/2/Y0KQ9FMRox-MwZdS6UO8Yw/1920r600/d/12242.jpg");
+  // background-image: url("../img/hero-bg.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: var(--color-gray);
+  // background-color: var(--color-gray);
 
   @include minitablet {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   @include mobile {
-    padding: 100px 0;
+    padding: 0px 0;
   }
 }
