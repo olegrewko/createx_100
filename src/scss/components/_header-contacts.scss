@@ -1,6 +1,15 @@
 .header-contacts {
   @include flex-v-center;
 
+  &__image {
+        // padding-left: 53px;
+        background-position: left center;
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+  }
   &__link {
     @include flex-column-start;
 
@@ -23,10 +32,10 @@
 }
 
 .contacts-link {
-  padding-left: 53px;
-  background-position: left center;
-  background-size: 40px 40px;
-  background-repeat: no-repeat;
+  // padding-left: 53px;
+  // background-position: left center;
+  // background-size: 40px 40px;
+  // background-repeat: no-repeat;
 
   &__caption {
     font-weight: 700;
@@ -63,11 +72,11 @@
     }
   }
 
-  &--call {
-    background-image: url("../img/phone.svg");
-  }
+  // &--call {
+  //   background-image: url("../img/smart.svg");
+  // }
 
-  &--mail {
-    background-image: url("../img/mail.svg");
-  }
+  // &--mail {
+  //   background-image: url("../img/email.png");
+  // }
 }

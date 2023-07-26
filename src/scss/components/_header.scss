@@ -50,6 +50,9 @@
 }
 
 .logo {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--color-black);
   @include minidesk {
     max-width: 100px;
   }
